@@ -1,0 +1,58 @@
+Pavel@DESKTOP-BEMM1KM MINGW64 ~/Desktop/Новая папка/Novu2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Pavel@DESKTOP-BEMM1KM MINGW64 ~/Desktop/Новая папка/Novu2 (main)
+$ git branch
+* main
+  new-branch
+
+Pavel@DESKTOP-BEMM1KM MINGW64 ~/Desktop/Новая папка/Novu2 (main)
+$ git log
+commit 5acb44db281de863f3a9087629d4820e849b83d1 (HEAD -> main, origin/main, origin/
+HEAD)
+Author: Pavlo0807 <pavel08078@ukr.net>
+Date:   Fri May 23 19:47:54 2025 +0300
+
+    Create text.html
+
+    Створили новий файл
+
+commit 350f81de13de2bd38f8d7b05d9902ca4885f9ae4
+Merge: b3a85c5 059766f
+Author: Pavlo <pavel08078@ukr.net>
+Date:   Fri May 23 19:44:10 2025 +0300
+
+    Вирішили конфлікт
+
+commit b3a85c5e8735d686c8497c9d8c606822ff28561a
+Author: Pavlo <pavel08078@ukr.net>
+Date:   Fri May 23 19:38:41 2025 +0300
+
+    Внесли зміни в файл на головній гілці
+
+commit 059766fe0f5de2311134f73dde8efb22126db8ae (origin/new-branch, new-branch)
+Author: Pavlo <pavel08078@ukr.net>
+Date:   Fri May 23 19:34:06 2025 +0300
+
+    Створили ще один рядок
+
+commit 23c6656d1b82045c7cc9bb00f70cf031534725be
+Author: Pavlo <pavel08078@ukr.net>
+q
+
+Pavel@DESKTOP-BEMM1KM MINGW64 ~/Desktop/Новая папка/Novu2 (main)
+$ q
+bash: q: command not found
+
+Pavel@DESKTOP-BEMM1KM MINGW64 ~/Desktop/Новая папка/Novu2 (main)
+$ git log --merges
+commit 350f81de13de2bd38f8d7b05d9902ca4885f9ae4
+Merge: b3a85c5 059766f
+Author: Pavlo <pavel08078@ukr.net>
+Date:   Fri May 23 19:44:10 2025 +0300
+
+    Вирішили конфлікт
